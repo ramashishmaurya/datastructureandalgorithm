@@ -1,22 +1,29 @@
-# main focused as  anaagrams right
+# # main focused as  anaagrams right
 
 
-n =["abc" , "bca" , "as" , "sa"] # sorted need to soert this right okay 
+# n =["abc" , "bca" , "as" , "sa"] # sorted need to soert this right okay 
 
-def groupsanagram(n):
+# def groupsanagram(n):
 
-    result = {}
+#     result = {}
 
-    for i in n :
-        key = "".join(sorted(i))
+#     for i in n :
+#         key = "".join(sorted(i))
 
-        if key not in result: 
-            result[key] = []  
+#         if key not in result: 
+#             result[key] = []  
          
-        result[key].append(i)
+#         result[key].append(i)
     
-    return result
+#     return result
 
 
-print(groupsanagram(n))
+# print(groupsanagram(n))
+
+
+def sumnumber():
+    return 10 
+
+
+
 
