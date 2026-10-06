@@ -107,36 +107,66 @@
 # print(Largestnumberinlist(numbers))
 
 
-numbers = [2 , 4, 6 , 8, 10 , 12 , 14]
-keys = 8 
+# numbers = [2 , 4, 6 , 8, 10 , 12 , 14]
+# keys = 8 
 
 
-def BinarysearcgAlgorithm(numbers , keys):
+# def BinarysearcgAlgorithm(numbers , keys):
 
-    sorted(numbers)
+#     sorted(numbers)
 
-    start = 0 
-    end = len(numbers)-1 
+#     start = 0 
+#     end = len(numbers)-1 
 
-    while(start <= end) :
+#     while(start <= end) :
 
-        midpoints = (start + end) // 2 
+#         midpoints = (start + end) // 2 
 
-        if numbers[midpoints] == keys:
-            return [numbers[midpoints] , midpoints ]
+#         if numbers[midpoints] == keys:
+#             return [numbers[midpoints] , midpoints ]
         
-        if keys < numbers[midpoints] :
-            end = end - 1 
-        else:
-            start = start + 1 
+#         if keys < numbers[midpoints] :
+#             end = end - 1 
+#         else:
+#             start = start + 1 
 
 
 
-print(BinarysearcgAlgorithm(numbers , keys))
-
-
+# print(BinarysearcgAlgorithm(numbers , keys))
 
 
 
 
+# reverse An Arrays 
+
+numbers = [ 2 , 4 ,  5, 6 , 10 ]
+
+abc = numbers.copy()
+# arrys = numbers[::-1]
+
+
+# b = numbers.reverse()
+
+# print(b)
+
+# def ReverseNumbers(numbers):
+
+#     start = 0 
+
+#     end = len(numbers) -1 
+
+#     while start <= end:
+
+#         numbers[start] , numbers[end] = numbers[end] , numbers[start]
+
+#         start+= 1 
+#         end-= 1 
+
+#     return numbers
+
+
+
+# print(ReverseNumbers(numbers))
+
+# print("original number " , abc  )
 
