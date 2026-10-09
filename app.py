@@ -139,9 +139,9 @@
 
 # reverse An Arrays 
 
-numbers = [ 2 , 4 ,  5, 6 , 10 ]
+# numbers = [ 2 , 4 ,  5, 6 , 10 ]
 
-abc = numbers.copy()
+# abc = numbers.copy()
 # arrys = numbers[::-1]
 
 

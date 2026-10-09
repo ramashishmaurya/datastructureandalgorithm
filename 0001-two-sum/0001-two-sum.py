@@ -11,4 +11,7 @@ class Solution(object):
                 return (hashmap[targetvalues] , i )
                 
             hashmap[values] = i 
-        
+
+
+
+
